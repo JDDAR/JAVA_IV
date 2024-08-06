@@ -9,6 +9,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
+@Entity
+@Table(name="product")
 public class Product {
     private Long id;
     private String nombreProduct;
